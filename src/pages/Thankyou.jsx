@@ -28,7 +28,7 @@ function Thankyou() {
     <div className="md:grid grid-cols-[1fr_3fr] min-h-screen">
       <div>
         <img
-          src="src/assets/images/bg-image.png"
+          src="/images/bg-image.png"
           alt=""
           className=" h-[15rem] w-full md:min-h-screen"
         />
@@ -38,7 +38,7 @@ function Thankyou() {
         <CardBack cvvnum={cvv} />
         <div className="relative left-[50%] translate-x-[-50%] w-fit md:left-[65%] md:top-[50%] md:translate-y-[-50%] lg:left-[55%]">
           <img
-            src="src/assets/images/icon-complete.svg"
+            src="/images/icon-complete.svg"
             className="relative left-[50%] translate-x-[-50%]"
             alt="icon-complete"
           />

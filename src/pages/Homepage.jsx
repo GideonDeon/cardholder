@@ -27,7 +27,7 @@ function Body() {
     <div className="md:grid grid-cols-[1fr_3fr] min-h-screen">
       <div>
         <img
-          src="src/assets/images/bg-image.png"
+          src="/images/bg-image.png"
           alt=""
           className=" h-[15rem] w-full md:min-h-screen"
         />
@@ -126,10 +126,10 @@ function Body() {
 }
 export function CardFront({ cardhold, cardnum, expire }) {
   return (
-    <div className="bg-[url(./assets/images/bg-card-front.png)] bg-center bg-contain bg-no-repeat 
+    <div className="bg-[url(/images/bg-card-front.png)] bg-center bg-contain bg-no-repeat 
                     h-[10rem] w-[20rem] absolute top-32 z-3 left-[5%] sm:left-[20%] md:left-[5%] md:top-[30%] lg:left-[10%]">
       <img
-        src="src/assets/images/card-logo.svg"
+        src="/images/card-logo.svg"
         alt="card-logo"
         className="ml-10 pt-4 w-[4rem] h-[3rem]"
       />
@@ -167,7 +167,7 @@ export function CardFront({ cardhold, cardnum, expire }) {
 }
 export function CardBack({ cvvnum }) {
   return (
-    <div className="bg-[url(./assets/images/bg-card-back.png)] bg-center bg-contain bg-no-repeat absolute top-10 left-[15%] 
+    <div className="bg-[url(/images/bg-card-back.png)] bg-center bg-contain bg-no-repeat absolute top-10 left-[15%] 
                     h-[10rem] w-[20rem] sm:left-[30%] md:left-[8%] md:top-[55%] lg:left-[15%]">
       <form action="" className="relative">
         <input
