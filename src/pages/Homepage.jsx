@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { CardContext } from "../components/CardContext";
-import { NavLink, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 function Homepage() {
   return <Body />;
 }
